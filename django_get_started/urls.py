@@ -36,7 +36,7 @@ urlpatterns = patterns('',
         },
         name='logout'),
     url(r'^cadastro_vestibulares', 'app.views.cadastro_vestibulares’, 
-        name='cadastros_vestibulares'),
+    name='cadastros_vestibulares'),
 
     # Uncomment the admin/doc line below to enable admin documentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
