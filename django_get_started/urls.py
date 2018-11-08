@@ -19,6 +19,7 @@ urlpatterns = patterns('',
     url(r'^cadastro_vestibulares', 'app.views.cadastro_vestibulares', name='cadastro_vestibulares'),
     url(r'^cadastro_cursos', 'app.views.cadastro_cursos', name='cadastro_cursos'),
     url(r'^login/$',
+
         'django.contrib.auth.views.login',
         {
             'template_name': 'app/login.html',
@@ -36,8 +37,11 @@ urlpatterns = patterns('',
             'next_page': '/',
         },
         name='logout'),
+ sprint02
 
  
+
+ master
 
     # Uncomment the admin/doc line below to enable admin documentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
