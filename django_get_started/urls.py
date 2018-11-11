@@ -37,11 +37,7 @@ urlpatterns = patterns('',
             'next_page': '/',
         },
         name='logout'),
- sprint02
 
- 
-
- master
 
     # Uncomment the admin/doc line below to enable admin documentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
