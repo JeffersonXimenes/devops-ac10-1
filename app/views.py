@@ -75,7 +75,7 @@ def cadastro_vestibulares(request):
 	})
 )
 
-def inscricao_vestibulares.html(request): 
+def inscricao_vestibulares(request): 
 	assert isinstance(request, HttpRequest) 
 	return render(
 	request,
